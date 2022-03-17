@@ -40,7 +40,7 @@ article，aside，footer，header，nav
   `Height = height + padding-top + padding-bottom + border-top + border-bottom;`
 
 
-- 怪异盒（border-box）:
+- 怪异盒，也叫IE盒模型（border-box）:
 
   元素所占的宽度：
 
@@ -138,7 +138,9 @@ article，aside，footer，header，nav
 
   ```javascript
   .box{
-      justify-content: flex-start | flex-end | center | space-between（两端对齐，项目之间的间隔都相等） | space-around(项目两侧的间隔都相等，所以，项目之间的间隔比项目与边框的间隔大一倍);
+      justify-content: flex-start | flex-end | center | 
+          space-between（两端对齐，项目之间的间隔都相等） | 
+          space-around(项目两侧的间隔都相等，所以，项目之间的间隔比项目与边框的间隔大一倍);
   }
   ```
 
